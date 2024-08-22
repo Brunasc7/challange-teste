@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Contato</title>
+</head>
+<body>
+    <form action="formField">
+        <div class="formField">
+            <div><label for="nomeCompleto">Nome:</label></div>
+            <input type="text" id="nomeCompleto" name="nomeCompleto" required placeholder="Nome Completo">
+        </div>
+        <div class="formField">
+            <div><label for="emails">E-mails:</label></div>
+            <input type="email" id="emails" name="emails" multiple placeholder="seu@mail.com">
+        </div>
+        <div class="formField">
+            <div><label for="telefones">Telefones:</label></div>
+            <input type="text" id="telefones" name="telefones" multiple placeholder="0000-0000">
+        </div>
+        <div class="formField">
+            <div><label for="cliente">Data Registro:</label></div>
+            <select id="cliente" name="cliente" required></select>
+        </div>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
